@@ -13,3 +13,45 @@ body{background-color: #cfe8f3ff
 #carousel .slide {
     display:inline-block; 
 }
+#welcome_discovery{
+vertical-align: text-top; text-align: left; font-family:'Montserrat', sans-serif;
+}
+
+h2{
+    font-family: 'Montserrat',sans-serif;
+}
+
+#homepageback{
+    background-color: #cfe8f3ff
+}
+
+#pebblemiddle{
+    text-align: center; vertical-align: middle; font-family: 'Codystar', cursive;font-size: 70; left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%; color: #0a8093
+}
+#homepagetext{text-align: center; font-family: 'Montserrat',sans-serif;color: #0a8093}
+#message{ left: 0;
+    line-height: 200px;
+    margin-top: -20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%; color: #0a8093;font-family: 'Montserrat', sans-serif}
+#message1{left: 0;
+    line-height: 200px;
+    margin-top: -50px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%; color: #0a8093; font-family: 'Montserrat', sans-serif; font-size: 30
+
+}
+
+#logo{
+    width: 300px; margin-left: auto;margin-right: auto; display: block
+}
