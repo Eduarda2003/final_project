@@ -1,0 +1,71 @@
+My Notes
+Chapter 2(Variables and Simple Data Types)
+    -when you create a variable and assign it a value it associates that value eiththat word
+    -you can change variable values and Python will keep track of the current value
+    Rules about creating variables:
+        - Only letters, numbers,and underscores
+        -cannot start with a number
+        -spaces not allowed
+        -don't use python key words
+        -spelling has to be consistent not correct but consistent
+    Strings(data type):
+        -series of charatcers inside of quotes
+        -methods are followed by ()
+        -to call a method, a dot is put after the variable
+    Combining Strings or Concatenating Strings
+        -python uses the + symbol to combine strings (called Concatenating)
+        -you can store an entire composed message in a variable
+        -title() method is used to format a name properly 
+    Adding whitespace to strings with tabs or newlines
+        -whitespace: nonprinting characters ex. spaces,tabs,and end of line 
+        symbols- meant to help organize output to make it easier to read
+        -to tab text use "\
+        -to add a new line in a string use \n 
+        -to start a newline with a tab use \n\t 
+    Stripping whitespace
+        -extra whitespace is confusing
+        -extra space in strings could differenciate them and cause errors
+        -important cause many times you would want to check if strings are the same
+        -use rstrip() method to check for whitespace at the right end of a string
+        -the method removes whitespace temporarily and if you check the value of the variable again 
+        then it would go back with whitespace---to remove permanently you must store the new value in the variable
+        -you can also use lstrip() to remove whitespace from the left or strip() to remove whitesapce from both sides
+        -in real world, the strip functions are used to clean up user input before being stored
+    Avoiding Syntax errors
+        -avoid using apostrophys inside single quotes...instead use double quotes with apostrophys inside so 
+        that python understands when a string starts and ends, therefore avoiding syntax errors
+Numbers
+    Integers
+        - you can add(+), subract(-), multiply(*) and divide(/)
+        -Python uses ** to represent exponents
+        -suports order of opperations (PEMDAS)- so you can use multiple applications in one expression 
+        -spacing has no effect on how Python evaluates the expression
+    Floats
+        - any number with a decimal point
+        -sometimes you can get alot of decimal places but its not a big deal just python
+        trying to give you a precise answer
+    Avoiding Type Errors with the str() function
+        - typeError means python cant recognize the information 
+        -when you write integers within strings you must specify that you want the integer to be interpreted as 
+        a string of characters--do this by wrapping the variable in the str()function
+Comments 
+    -helpful for you to understand what your code is doing as it gets more complicated
+    -# indic
+
+
+
+    to make others available to github
+    1st use git clone + url  to clone the project 
+    to push a file 
+        - check status for untrackked files-- git status
+        - then git add . to add all files or git add + name of file
+        -check status again to make sure its tracked
+        -then commit with git  commit -m "message"
+        -lastly git push origin master 
+    for others to pull anything new from the branch(updates;new files)--use git pull origin master 
+    -can't push anything until i pull everything from the master branch 
+    
+
+
+
+    

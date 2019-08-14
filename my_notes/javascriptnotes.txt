@@ -1,0 +1,48 @@
+What Is Javascript? 
+    -language used to add a program to web pages
+    -makes modern  web applications possible
+    -used to provide various forms of interactivity and cleverness
+    -Javascriptis very liberal in what it allows
+Typograpahic conventions 
+    - text written in monospaced font will represent elements of programs
+    -sometimes output is shown with two slashes and an arrow and the output 
+    after that 
+Chapter 1(Values, Types, and Operators)
+    -there is only data in the computer world
+    -data is stored as sequences of bits 
+    -Bits- are two values things(0s and 1s)
+    Values  
+        -in  a computer there are many bits and to not get lost in it, they are
+        seperated into chunks called values that represent info.
+        -all values are made of bits but have different roles ex. numbers,
+        texts, or functions etc...
+        -to create a value you just give it a name
+    Numbers
+        - are numeric values(obviously)
+        -for big numbers you can use scientific notation-add and e with the exponent number after it 
+        -supports order of opperations(PEMDAS); (+,-,*,/)
+        - (%) used to represent the remainder operation ; operators precedence same as 
+        multiplication and division 
+    Special Numbers
+        - 3 values that are numbers but dont behave like normal numbers:
+        1&2.Infinity and -Infinity (positive and negative infinities)
+        3.NaN= "not a number"-get this when the operations dont yeild a meaningful result
+    Strings
+        -represents text
+        -written by enclosing the text in quotes
+        -could use single or double quotes but need to be consistent 
+        -when a \ is used inside a quoted text means the character after it has a special meaning->called 
+        escaping the mafia 
+        -(\n) interpreted as a new line
+        -(\t) is intrepreted as a a tab 
+        - if two \\ follow eachother they collapse on eachother and only one is left 
+        in the resulting string
+        -strings cannot be divided, multiplied, or subtracted but (+) can combine two strings together
+        -backtick `` quoted strings are usually called template literals and can embed other values 
+    Unary Operators 
+        -typeof operator names the type of the value you give it 
+        -use console.log to indicate you want something shown 
+        -operators that tuse two values are called binary operators and those that take one are unary operators
+        -(-) operator can e binary and unary 
+    Boolean Values
+        - 
